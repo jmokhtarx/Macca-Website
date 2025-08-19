@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}عن الشركة{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>عن شركتنا</h2>
+            <p>تعرف على رحلة التميز والنجاح لشركة مكة للمقاولات</p>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-building"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>مكة للمقاولات والتوريدات</h3>
+                <p>تعمل شركة مكة للمقاولات العامة في السوق المصري منذ عام 2017، حيث تخصصت في تقديم حلول متكاملة في مجال البناء والتشييد.</p>
+                
+                <p>تقوم الشركة بتصميم وتنفيذ المشاريع المتفق عليها في جميع المراحل:</p>
+                <ul class="features-list">
+                    <li>أعمال حفر أساسات</li>
+                    <li>صب خراسانات</li>
+                    <li>بناء وتشطيب الوحدات المختلفة</li>
+                    <li>أعمال التشطيب (نجارة، سباكة، محارة، كهرباء، دهانات وديكورات)</li>
+                    <li>أعمال اللاند سكيب الخارجية والداخلية</li>
+                    <li>أعمال زراعات الزينة والحدائق الملحقة</li>
+                </ul>
+                
+                <p>تتعاون الشركة مع مكاتب استشارية معتمدة لأعمال جس التربة واعتماد عينة التربة، وقد تم التوسع في رأس المال بأنشاء مصنع لصناعة طوب وش الجبل وطوب سبليت لتوريده مباشرة للشركة لتنفيذ المشاريع.</p>
+                
+                <p>كذلك تم التوسع في رأس مال الشركة بملكية جميع أدوات والعدة المستخدمة في صب الأساسات والخراسانات.</p>
+                
+                <p>تهدف الشركة لتقديم خدمة متميزة للمشروعات المختلفة التي تقوم بتنفيذها وتنفيذ متطلبات العميل بما يتناسب مع المقاييس الهندسية والفنية العالمية والمصرية.</p>
+                
+                <div class="mission-vision">
+                    <div class="mv-item">
+                        <h4><i class="fas fa-bullseye"></i> رسالتنا</h4>
+                        <p>تقديم حلول بناء متكاملة بجودة عالية ومواعيد دقيقة تلبي توقعات عملائنا.</p>
+                    </div>
+                    <div class="mv-item">
+                        <h4><i class="fas fa-eye"></i> رؤيتنا</h4>
+                        <p>أن نكون الشركة الرائدة في مجال المقاولات بالمنطقة من خلال الابتكار والتميز.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<div class="team-link text-center mt-40">
+    <a href="{{ url_for('team') }}" class="btn">أعضاء الفريق</a>
+</div>
+<!-- Values Section -->
+<section class="section values">
+    <div class="container">
+        <div class="section-title">
+            <h2>قيمنا</h2>
+            <p>المبادئ التي نؤمن بها ونسير عليها</p>
+        </div>
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>الجودة</h3>
+                <p>نلتزم بأعلى معايير الجودة في جميع مشاريعنا</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>الالتزام</h3>
+                <p>ننهي مشاريعنا في المواعيد المتفق عليها</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>الابتكار</h3>
+                <p>نواكب أحدث التقنيات في مجال البناء والتشييد</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>العمل الجماعي</h3>
+                <p>فريق عمل متكامل لتحقيق أفضل النتائج</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

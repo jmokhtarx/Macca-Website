@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}الرئيسية{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                
+                <h1>مكة للمقاولات والتوريدات</h1>
+                <p>الريادة في مجال المقاولات العامة والبناء والتشييد منذ 2017</p>
+                <div class="hero-buttons">
+                    <a href="{{ url_for('projects') }}" class="btn btn-primary">تصفح مشاريعنا</a>
+                    <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>عن شركتنا</h2>
+                <p>التميز في تنفيذ المشاريع بأعلى معايير الجودة</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>شركة رائدة في مجال المقاولات</h3>
+                    <p>تعمل شركة مكة للمقاولات العامة في السوق المصري منذ عام 2017، حيث تخصصت في تقديم حلول متكاملة في مجال البناء والتشييد.</p>
+                    <p>نقوم بتصميم وتنفيذ المشاريع المتفق عليها في جميع المراحل بدءًا من أعمال الحفر والأساسات حتى أعمال التشطيب النهائية.</p>
+                    <a href="{{ url_for('about') }}" class="btn">المزيد عنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>خدماتنا</h2>
+                <p>نقدم مجموعة متنوعة من خدمات البناء والتشييد التي تلبي احتياجات عملائنا</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>المقاولات العامة</h3>
+                    <p>تنفيذ المشاريع السكنية والتجارية من البداية حتى النهاية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>أعمال التشطيب</h3>
+                    <p>نجارة، سباكة، محارة، كهرباء، دهانات وديكورات</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>اللاند سكيب</h3>
+                    <p>تصميم وتنفيذ الحدائق والمساحات الخضراء</p>
+                </div>
+            </div>
+            <div class="text-center mt-40">
+                <a href="{{ url_for('services') }}" class="btn">عرض جميع الخدمات</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}
