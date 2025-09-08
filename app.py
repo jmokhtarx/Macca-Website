@@ -303,16 +303,16 @@ def team():
             "bio": "خبرة أكثر من 15 سنة في مجال المقاولات وإدارة المشاريع."
         },
         {
+            "name": "محمد جمال",
+            "role": "نائب رئيس مجلس الإدارة و العضو المنتدب",
+            "image": "images/team/member3.jpg",
+            "bio": ""
+        },
+        {
             "name": "م.سامح عبدالعزيز",
             "role": "مدير المشروعات",
             "image": "images/team/member2.jpg",
             "bio": "متخصص في التخطيط والإشراف على المشاريع الإنشائية."
-        },
-        {
-            "name": "محمد جمال",
-            "role": "مدير عام",
-            "image": "images/team/member3.jpg",
-            "bio": ""
         },
         {
             "name": "عمرو زغلول",
@@ -321,7 +321,7 @@ def team():
             "bio": ""
         },
         {
-            "name": "محمود منصور",
+            "name": "أشرف عويس ",
             "role": "مدير حسابات",
             "image": "images/team/member3.jpg",
             "bio": ""
@@ -345,8 +345,8 @@ def team():
             "bio": ""
         },
         {
-            "name": "م.عبدالرحمن مصطفى",
-            "role": "مدير تنفيذي ترميم",
+            "name": "م.محمد مصطفي",
+            "role": "مدير تنفيذي موقع",
             "image": "images/team/member3.jpg",
             "bio": ""
         },
@@ -365,12 +365,6 @@ def team():
         {
             "name": "مصطفى حسين",
             "role": "مشرف",
-            "image": "images/team/member3.jpg",
-            "bio": ""
-        },
-        {
-            "name": "اشرف عويس",
-            "role": "محاسب اول",
             "image": "images/team/member3.jpg",
             "bio": ""
         },
